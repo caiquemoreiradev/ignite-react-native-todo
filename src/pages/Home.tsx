@@ -15,7 +15,7 @@ export function Home() {
 
     if (alreadyExists) {
 
-      Alert.alert('Task já cadastrada', 'Você não pode cadastrar uma task com o mesmo nome');
+      Alert.alert('Task já cadastrada', 'Você não pode cadastrar uma task com o mesmo nome' );
       return;
     }
 

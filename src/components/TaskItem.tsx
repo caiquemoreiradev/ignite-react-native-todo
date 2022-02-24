@@ -92,13 +92,13 @@ export function TaskItem({ index, task, toggleTaskDone, removeTask, editTask }: 
                     <TouchableOpacity
                         onPress={handleCancelEditing}
                     >
-                        <Icon name="x" size={24} color="#b2b2b2" />
+                        <Icon name="x" size={24} color="#fafafa" />
                     </TouchableOpacity>
                 ) : (
                     <TouchableOpacity
                         onPress={handleStartEditing}
                     >
-                        <Icon name="edit-3" size={24} color="#b2b2b2" />
+                        <Icon name="edit-3" size={24} color="#fafafa" />
                     </TouchableOpacity>
                 )}
 
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     taskText: {
-        color: '#666',
+        color: '#fafafa',
         fontFamily: 'Inter-Medium'
     },
     taskMarkerDone: {
